@@ -1,0 +1,15 @@
+.the-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: center;
+}
+.contact{
+    flex-basis: 25%;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
