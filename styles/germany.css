@@ -1,6 +1,18 @@
-.country__image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.country__image img{
+width: 25%;
+display: block;
+margin: auto;
+}
+h1{
+    text-align: center;
+}
+.country__information{
+    display: flex;
+    justify-content: space-between;
+}
+.country__cities{
+    margin-left: 3em;
+}
+.country__government{
+    margin-right: 3em;
 }
