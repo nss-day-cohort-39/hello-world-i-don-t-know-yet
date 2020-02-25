@@ -20,3 +20,57 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body, html{
+    min-height: 100vh;
+    min-width: 100vw;
+    padding-bottom: 8%;
+}
+.container{
+    background-color: rgb(176, 206, 203);
+	min-width: 100vw;
+}
+.navigation, .the-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(69, 99, 107);
+    position: fixed;
+    text-align: center;
+    min-height: 8%;
+}
+.nav-bar{
+    flex-basis: 20%;
+    padding: 15px;
+    text-decoration: none;
+	color: #fff;  
+}
+.nav-bar:hover{
+    color: rgba(235, 212, 6, 0.89);
+    margin-bottom: 30px;
+    padding: 0px;
+	transform: translate(2px, 20px);
+	font-size: 16px;
+}
+.contact{
+    flex-basis: 25%;
+}
+.contact-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.the-footer{
+    bottom: 0;
+    z-index: 1;
+    padding-top: 12px;
+}
