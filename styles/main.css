@@ -70,12 +70,15 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 50%;
     text-align: center;
 }
+#container{
+    width: 100%;
+    min-height: 670px - 56.41px- 60px;
+}
 .homepage-img{
     width: 100%;
+    object-fit: cover;
     height: 100%;
-    object-fit: scale-down;
 }
-
 .the-footer{
     bottom: 0;
     z-index: 1;
