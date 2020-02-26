@@ -49,3 +49,39 @@ a:hover{
   justify-content: center;
   justify-content: space-between;
 }
+
+
+/* .country__image img {
+  display: block;
+  height: auto;
+  margin: auto;
+  width: 90%;
+}
+
+h1 {
+  font-size: 4em;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.country__information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country__cities {
+  margin-left: 20%;
+}
+
+.country__government {
+  margin-right: 20%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+} */
