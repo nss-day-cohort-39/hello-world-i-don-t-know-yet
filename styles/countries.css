@@ -29,7 +29,7 @@ a:hover{
   text-align:center
 }
 
-.country__cities{
+/* .country__cities{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,19 +48,22 @@ a:hover{
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-}
+} */
 
 
-/* .country__image img {
+
+/* ------------------------------------------ */
+
+.country__image img {
   display: block;
   height: auto;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 90%;
 }
 
 h1 {
-  font-size: 4em;
-  margin-top: 0px;
+  margin-top: 20px;
   padding-top: 0px;
   text-align: center;
 }
@@ -71,11 +74,11 @@ h1 {
 }
 
 .country__cities {
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 .country__government {
-  margin-right: 20%;
+  margin-right: 15%;
 }
 
 ul {
@@ -84,4 +87,4 @@ ul {
 
 a {
   text-decoration: none;
-} */
+}
