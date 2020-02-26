@@ -1,0 +1,51 @@
+.country__image{
+	display:flex;
+	justify-content: center;
+}
+
+a:link, a:visited, a:hover{
+  text-decoration: none;
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.country__name{
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16pt;
+  font-weight:bolder;
+  text-align:center;
+}
+
+.instructions{
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 9pt;
+  text-align:center
+}
+
+.country__cities{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.country__landmarks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.country__government{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
