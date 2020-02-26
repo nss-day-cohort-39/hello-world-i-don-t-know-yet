@@ -29,8 +29,23 @@ a:hover{
   text-align:center
 }
 
-.country__columns{
+.country__cities{
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-content: space-between;
+}
+
+.country__landmarks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.country__government{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
 }
