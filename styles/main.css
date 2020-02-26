@@ -1,21 +1,81 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 @import url("/styles/countries.css");
-@import url("/styles/japan.css");
-
 /*Typography
 --------------------------------------------------------------*/
 body,
-button,
-input,
-select,
-textarea {
-	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-}
+
+
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
-  letter-spacing: 2px;
+    font-family: 'Fondamento', serif;
+    letter-spacing: 2px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body, html{
+    min-height: 100vh;
+    min-width: 100vw;
+    padding-bottom: 8%;
+}
+.navigation, .the-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(78, 151, 172);
+    position: fixed;
+    text-align: center;
+    min-height: 8%;
+    font-family: 'Fondamento', serif; 
+}
+.navigation{
+    font-size: 20px;
+}
+
+.nav-bar{
+    flex-basis: 20%;
+    padding: 15px;
+    text-decoration: none;
+	color: #fff;  
+}
+.nav-bar:hover{
+    color: rgba(235, 212, 6, 0.89);
+    margin-bottom: 30px;
+    padding: 0px;
+    font-size: 20px;
+	transform: translate(2px, 19px);
+    transition-duration: 0.5s;
+}
+.contact{
+    flex-basis: 25%;
+}
+.contact-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+#container{
+    width: 100%;
+    max-height: 300px;
+    background-color: rgb(11, 160, 219);
+}
+.homepage-img{
+    width: 100%;
+    object-fit: cover;
+}
+.the-footer{
+    bottom: 0;
+    z-index: 1;
+    padding-top: 12px;
+    margin-top: 0;
+}
+.contact:hover{
+	transform: translate(1px, 3px);
+    transition-duration: 0.5s;
 }
