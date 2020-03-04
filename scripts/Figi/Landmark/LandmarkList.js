@@ -1,7 +1,7 @@
 import { useLandmark } from "./LandmarkDataProvider.js";
 import Landmark from './Landmark.js'
 
-const TargetContent = document.querySelector('.landmark-ifo')
+const TargetContent = document.querySelector('.landmark-info-list')
 const landmarkList = () => {
     const landmarks = useLandmark()
     for (const landmarkObject of landmarks) {
