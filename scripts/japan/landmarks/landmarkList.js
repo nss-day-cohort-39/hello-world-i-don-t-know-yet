@@ -1,0 +1,3 @@
+const landmarkList = () => {
+    const itemDOMLocation
+}
