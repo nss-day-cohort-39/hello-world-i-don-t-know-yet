@@ -1,1 +1,3 @@
-console.log("Welcome to the main module")
+//console.log("Got Here")
+import CountryRender from "./CountryRender.js"
+CountryRender()

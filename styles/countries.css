@@ -29,21 +29,21 @@ a:hover{
   text-align:center
 }
 
-.country__cities{
+.country--cities{
   display: flex;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
 }
 
-.country__landmarks{
+.country--landmarks{
   display: flex;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
 }
 
-.country__government{
+.country--government{
   display: flex;
   align-items: center;
   justify-content: center;
